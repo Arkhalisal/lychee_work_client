@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-google-maps/api": "^2.20.3",
+    "next": "15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.0"
+    "zustand": "^5.0.2"
   },
   "devDependencies": {
     "postcss": "^8",
